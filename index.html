@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="ITTakesTwo is a technology company focused on delivering impact through innovation.">
+    <meta name="author" content="ITTakesTwo">
+	<meta name="keywords" content="ITTakesTwo, ITTakes2, Cyber, Security, Networking">
+    <!-- todo: favicon + metadata -->
+    <title>ITTakesTwo</title>
+    <link rel="canonical" href="https://ittakes2.net">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+    <link href="css/cover.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet">
+	<script src="assets/loading.js"></script>
+	<script src="assets/main.js"></script>
+  </head>
+
+<!-- Loading screen section -->
+	<div id="loadingScreen">
+		<div class="bottomQuote">
+			<h1 id="loadingText" class="icon">
+				<font size="100" color="ffffff">?</font>
+				<br>
+				<font size="4" color="ededed">
+					<b>Did you know:</b>
+					<br>
+					<script>
+						document.write(getRandomMsg());
+					</script>
+				</font>
+			</h1>
+		</div>
+	</div>
+
+  <body class="text-center" onload="hideLoading()">
+
+    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+      <header class="masthead mb-auto">
+        <div class="inner">
+          <h3 class="masthead-brand fontOxy"><b>ITTakesTwo</b></h3>
+          <nav class="nav nav-masthead justify-content-center">
+            <a class="nav-link fontOxy" href="#" onclick="switchPage('home');">Home</a>
+            <a class="nav-link fontOxy" href="#" onclick="switchPage('whatWeDo');">What we do</a>
+			<a class="nav-link fontOxy" href="https://blog.ittakes2.net">Blog</a>
+			<a class="nav-link fontOxy" href="https://github.com/ITTakes2">GitHub</a>
+			<a class="nav-link fontOxy" href="projects/">Projects</a>
+            <a class="nav-link fontOxy" href="#" onclick="switchPage('contact');">Contact</a>
+          </nav>
+        </div>
+      </header>
+
+      <main role="main" class="inner cover">
+		<h1 id="headerMain" class="cover-heading fontOxy">We are ITTakesTwo.</h1>
+		<br>
+		<div class="b">
+			<p id="textMain" class="lead fontOxy">We are a technology company focused on delivering impact through innovation.</p>
+		</div>
+	 </main>
+
+      <footer class="mastfoot mt-auto">
+        <div class="inner fontOxy">
+          <p><a href="https://github.com/ITTakes2">We ♡ open source</a></p>
+        </div>
+      </footer>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="assets/popper.min.js"></script>
+    <script src="assets/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+#loadingScreen {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	background-color: #3e4957;
+	display: block;
+}
+
+.bottomQuote {
+	position: absolute;	
+	width: 100%;
+	top: 45%;
+	z-index: 100;
+}
+
+
+#loadingText {
+	font-family: 'Oxygen', sans-serif; font-weight: 300; font-style: normal;
+	text-align: center;
+}
+
+#headerText {
+	font-family: 'Oxygen', sans-serif; font-weight: 300; font-style: normal;
+	text-align: center;
+}
+
+
+.fontOxy {
+	font-family: 'Oxygen', sans-serif; font-weight: 300; font-style: normal;
+	transition: all 0.5s;
+}
+
+div.b {
+  word-wrap: break-word;
+}
